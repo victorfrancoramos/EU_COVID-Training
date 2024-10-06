@@ -2,7 +2,22 @@
 
 Entrenamiento de modelo de detección de COVID
 
-Renombrar extensión de .JPEG a .JPG (Linux): 
+COVIDx Dataset: [https://github.com/lindawangg/COVID-Net/blob/master/docs/COVIDx.md](https://github.com/lindawangg/COVID-Net/blob/master/docs/COVIDx.md)
+
+El conjunto de datos COVIDx actual puede descargarse del siguiente sitio de código abierto:
+* https://www.kaggle.com/andyczhao/covidx-cxr2?select=competition_test
+
+O puede construirse manualmente utilizando los siguientes conjuntos de datos de radiografía de tórax de código abierto:
+* https://github.com/ieee8023/covid-chestxray-dataset
+* https://github.com/agchung/Figure1-COVID-chestxray-dataset
+* https://github.com/agchung/Actualmed-COVID-chestxray-dataset
+* https://www.kaggle.com/tawsifurrahman/covid19-radiography-database
+* https://www.kaggle.com/c/rsna-pneumonia-detection-challenge (original en: https://nihcc.app.box.com/v/ChestXray-NIHCC)
+* https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=70230281
+* https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=89096912
+* https://bimcv.cipf.es/bimcv-projects/bimcv-covid19/
+
+* Renombrar extensión de .JPEG a .JPG (Linux): 
 
 `rename -v -n .jpeg .jpg *.jpeg` _#Visualizar antes de ejecutar_
 
